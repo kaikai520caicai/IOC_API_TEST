@@ -27,7 +27,7 @@ class Test_Login_Api(unittest.TestCase):
         self.run.close_session()
 
     @parameterized.expand(get_data(BASE_DIR + "/database/login_data.xlsx"))
-    def test_login(self, case_name, url, json, method, exp):
+    def test_login(self, case_name, url, json, method, expect_code, status_code):
         """
 
         :param case_name:
@@ -44,15 +44,14 @@ class Test_Login_Api(unittest.TestCase):
         # url = "https://smart-uat.gtdreamlife.com:18762/api/auth/oauth/token"
         # json = {"username":"gaolongkai","password":"b4f1971a4d64defc3cd3f337fdc1007c","grant_type":"password"}
         # method = "post"
-        jsondata = self.login.login_api(url=url, data=json, headers=headers, method=method)
+        response = self.login.login_api(url=url, data=json, headers=headers, method=method)
+        jsondata = response.json()
         mylogger.info(jsondata)
-        if exp==jsondata.get("errorCode"):
-            mylogger.info("测试通过")
+        if expect_code == jsondata.get("errorCode"):
+            mylogger.info("errorCode为{},测试通过".format(expect_code))
+        if status_code ==response.status_code:
+            mylogger.debug("status_code为{},测试通过".format(status_code))
         else:
             mylogger.info("测试不通过！")
-        self.assertEqual(exp, jsondata.get("errorCode"))
-
-
-
-
-
+        self.assertEqual(expect_code, jsondata.get("errorCode"))
+        self.assertEqual(status_code,response.status_code)
