@@ -23,9 +23,11 @@ class Get_Test_Data():
             for j in range(self.sheet.ncols):
                 ctype = self.sheet.cell(i, j).ctype  # 判断表格数据类型
                 cell = self.sheet.cell_value(i, j)
-                if ctype == 2 and cell % 1 == 0:  # 判断为int
+                if ctype == 2 and cell % 1 == 0:  # 判断为int  去除表格为空的
                     cell = int(cell)
-                row_content.append(cell)
+                    row_content.append(cell)
+                elif ctype != 0: # 新增判断exce单元格为空的情况
+                    row_content.append(cell)
 
             self.dicts = dict(zip(self.keys, row_content))
             self.lists.append(self.dicts)
@@ -76,9 +78,9 @@ class Logger():
         return self.logger
 
 
-if __name__ == "__main__":
-    path = BASE_DIR
-    filepath = path + "\\" + "database" + "\\" + "login_data.xlsx"
-    g = Get_Test_Data()
-    # print(g.read_excel(filepath))
-    print(get_data(filepath))
+# if __name__ == "__main__":
+path = BASE_DIR
+filepath = path + "\\" + "database" + "\\" + "login_data.xlsx"
+g = Get_Test_Data()
+# print(g.read_excel(filepath))
+print(get_data(filepath))
