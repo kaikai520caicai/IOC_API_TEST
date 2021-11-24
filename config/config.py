@@ -25,9 +25,10 @@ class Get_Test_Data():
                 cell = self.sheet.cell_value(i, j)
                 if ctype == 2 and cell % 1 == 0:  # 判断为int  去除表格为空的
                     cell = int(cell)
-                    row_content.append(cell)
-                elif ctype != 0: # 新增判断exce单元格为空的情况
-                    row_content.append(cell)
+                    # row_content.append(cell)
+                elif ctype == 0: # 新增判断exce单元格为空的情况
+                    continue
+                row_content.append(cell)
 
             self.dicts = dict(zip(self.keys, row_content))
             self.lists.append(self.dicts)
