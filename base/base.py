@@ -24,9 +24,9 @@ class Run_Main():
     def run(self, url=None, params=None, data=None, json=None, headers=None, method=None):
         response = None
         if method == "get":
-            response = self.send_get(url, params, data, headers).json()
+            response = self.send_get(url, params, data, headers)
         else:
-            response = self.send_post(url, data, json, headers).json()
+            response = self.send_post(url, data, json, headers)
         return response
 
     def close_session(self):
