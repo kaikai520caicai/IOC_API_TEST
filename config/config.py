@@ -7,6 +7,9 @@ import os, time
 import xlrd, json
 from util import BASE_DIR
 import logging
+import pandas as pd
+from pandas import DataFrame
+from openpyxl import load_workbook
 
 
 class Get_Test_Data():
@@ -26,13 +29,21 @@ class Get_Test_Data():
                 if ctype == 2 and cell % 1 == 0:  # 判断为int  去除表格为空的
                     cell = int(cell)
                     # row_content.append(cell)
-                elif ctype == 0: # 新增判断exce单元格为空的情况
+                elif ctype == 0:  # 新增判断exce单元格为空的情况
                     continue
                 row_content.append(cell)
 
             self.dicts = dict(zip(self.keys, row_content))
             self.lists.append(self.dicts)
         return self.lists
+
+
+def write_excel(path, actual_code, actual_status, result):
+    data = pd.read_excel(path)
+    data["actual_code"] = actual_code
+    data["actual_status"] = actual_status
+    data["result"] = result
+    DataFrame(data).to_excel(path, sheet_name="Sheet1", index=False, header=True)
 
 
 def get_data(filepath):
@@ -79,9 +90,36 @@ class Logger():
         return self.logger
 
 
-# if __name__ == "__main__":
-path = BASE_DIR
-filepath = path + "\\" + "database" + "\\" + "login_data.xlsx"
-g = Get_Test_Data()
-# print(g.read_excel(filepath))
-print(get_data(filepath))
+class Clear_excel():
+    """
+    清除excel最后三行的数据
+    """
+    def __init__(self):
+        self.nrows = 0
+        self.ncols = 0
+
+    def get_nrows(self, path):
+        sheet = xlrd.open_workbook(path)
+        sheet1 = sheet.sheet_by_name("Sheet1")
+        self.nrows = sheet1.nrows
+        self.ncols = sheet1.ncols
+
+        wb = load_workbook(path)
+        sheets = wb["Sheet1"]
+        for i in range(2, self.nrows + 1):
+            sheets.cell(row=i, column=self.ncols, value="")
+        for i in range(2, self.nrows + 1):
+            sheets.cell(row=i, column=self.ncols - 1, value="")
+        for i in range(2, self.nrows + 1):
+            sheets.cell(row=i, column=self.ncols - 2, value="")
+        print(self.ncols, self.nrows)
+        wb.save(path)
+
+if __name__ == "__main__":
+    path = BASE_DIR
+    filepath = path + "\\" + "database" + "\\" + "login_data.xlsx"
+    list=get_data(filepath)
+    print(list)
+    print(list[:-3])
+# for i in get_data(filepath):
+#     print(i)
