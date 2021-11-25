@@ -45,11 +45,14 @@ class Test_Query_Api(unittest.TestCase):
         headers = {"Content-Type": "application/json",
                    "Authorization": token}
         method = "post"
-        jsondata = self.api_query.test_query_api(url, json, headers, method)
+        response = self.api_query.test_query_api(url, json, headers, method)
+        jsondata = response.json()
         mylogger.info(jsondata)
         if jsondata.get("errorCode") == 0:
-            mylogger.info("测试通过")
+            mylogger.info("errorCode为0，测试通过")
+        if response.status_code == 200:
+            mylogger.info("status_code为200，测试通过")
         else:
             mylogger.info("测试不通过！")
         self.assertEqual(0, jsondata.get("errorCode"))
-
+        self.assertEqual(200, response.status_code)
