@@ -16,10 +16,13 @@ def get_token():
     json = {"username": "gaolongkai", "password": "b4f1971a4d64defc3cd3f337fdc1007c", "grant_type": "password"}
     method = "post"
     login = Login_Api()
-    jsondata = login.login_api(url=url, data=json, headers=headers, method=method)
+    jsondata = login.login_api(url=url, data=json, headers=headers, method=method).json()
     access_token = jsondata.get("access_token")
     Authorization = "Bearer " + access_token
     return Authorization
+
+
+
 
 if __name__ == "__main__":
     token = get_token()
