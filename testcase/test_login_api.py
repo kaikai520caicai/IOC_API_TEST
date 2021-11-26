@@ -9,7 +9,7 @@ import unittest, time
 import warnings
 from parameterized import parameterized
 from config.config import get_data, write_excel, Clear_excel
-from util import BASE_DIR
+from util import BASE_DIR,BASE_URL
 from config.config import Logger
 
 mylogger = Logger(logger="test_query_api").getlog()
@@ -42,7 +42,7 @@ class Test_Login_Api(unittest.TestCase):
         self.run.close_session()
 
     @parameterized.expand([x[:-3] for x in get_data(path)])
-    def test_login(self, case_name, url, json, method, expect_code, status_code):
+    def test_login(self, case_name, api, json,headers, method, expect_code, status_code):
         """
 
         :param case_name:
@@ -52,8 +52,10 @@ class Test_Login_Api(unittest.TestCase):
         :param expect:
         :return:
         """
-        mylogger.info(case_name)
-        headers = {"Content-Type": "application/x-www-form-urlencoded", "Authorization": "Basic aW9jOmlvYw=="}
+        mylogger.info("case_name为：{}".format(case_name))
+        url=BASE_URL+api
+        mylogger.info("url为：{}".format(url))
+        # headers = {"Content-Type": "application/x-www-form-urlencoded", "Authorization": "Basic aW9jOmlvYw=="}
         response = self.login.login_api(url=url, data=json, headers=headers, method=method)
         jsondata = response.json()
         actual_code = jsondata.get("errorCode")
