@@ -7,6 +7,7 @@ import os
 from api.login import Login_Api
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_URL="https://smart-uat.gtdreamlife.com:18762"
 
 
 def get_token():
