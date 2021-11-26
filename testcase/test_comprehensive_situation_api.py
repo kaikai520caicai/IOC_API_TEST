@@ -13,7 +13,7 @@ from util import BASE_URL, BASE_DIR
 from api.carTraffic_api import CarTraffic_Api
 import warnings
 
-mylogger = Logger(logger="Test_Comprehensive_Situation").getlog()
+mylogger = Logger(logger="Test_Comprehensive_Situation_api").getlog()
 path = BASE_DIR + "/database/security.xlsx"
 actual_code_list = []
 actual_status_list = []
