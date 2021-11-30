@@ -1,36 +1,36 @@
 # _*_ coding: utf-8 _*_
-# @Time : 2021/11/26 13:59
+# @Time : 2021/11/29 15:11
 # @Auth: GLK
-# @File: test_comprehensive_security.py
+# @File: test_device_unusual_api.py
 # @Software :PyCharm
 
+
 import unittest
-from api.Comprehensive_security_api import Comprehensive_Security_Api
+from api.device_unusual_api import Device_Unusual_Api
 from base.base import Run_Main
 from config.config import Logger, get_data
 from parameterized.parameterized import parameterized
 from util import BASE_URL, BASE_DIR, get_token
-from api.carTraffic_api import CarTraffic_Api
 import warnings
 
-mylogger = Logger(logger="Test_Comprehensive_Security_Api").getlog()
-path = BASE_DIR + "/database/Comprehensive_security.xlsx"
+mylogger = Logger(logger="Test_Device_Unusual_Api").getlog()
+path = BASE_DIR + "/database/device_unusual.xlsx"
 actual_code_list = []
 actual_status_list = []
 result_list = []
 
 
-class Test_Comprehensive_Security_Api(unittest.TestCase):
+class Test_Device_Unusual_Api(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        mylogger.info("开始测试Test_Comprehensive_Security_Api")
-        cls.C_security_api = Comprehensive_Security_Api()
+        mylogger.info("开始测试Test_Device_Unusual_Api")
+        cls.device_unusual_api = Device_Unusual_Api()
 
         # cls.run = Run_Main()
 
     @classmethod
     def tearDownClass(cls) -> None:
-        mylogger.info("结束测试Test_Comprehensive_Security_Api")
+        mylogger.info("结束测试Test_Device_Unusual_Api")
 
     def setUp(self) -> None:
         self.run = Run_Main()
@@ -56,8 +56,10 @@ class Test_Comprehensive_Security_Api(unittest.TestCase):
         mylogger.info("测试用例名称：{}".format(case_name))
         url = BASE_URL + api
         mylogger.info("url为：{}".format(url))
-        response = self.C_security_api.comprehensive_security_api(url=url, json=request_body, headers=headers,
-                                                                  method=method)
+        token = get_token()
+        headers["Authorization"] = token
+        response = self.device_unusual_api.device_unusual_api(url=url, json=request_body, headers=headers,
+                                                              method=method)
         jsondata = response.json()
         actual_code = jsondata.get("errorCode")
         actual_status = response.status_code

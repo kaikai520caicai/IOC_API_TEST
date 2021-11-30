@@ -42,6 +42,7 @@ class Test_Query_Api(unittest.TestCase):
             "pageNum": 1
         }
         token = get_token()
+        print(token)
         headers = {"Content-Type": "application/json",
                    "Authorization": token}
         method = "post"
