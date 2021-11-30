@@ -52,6 +52,8 @@ def get_data(filepath):
     for data_list in g.read_excel(filepath):
         per_data = list(data_list.values())
         for i in per_data:
+            if i==None or i=="":
+                continue
             if type(i) == str and i.startswith("{"):
                 idx = per_data.index(i)
                 per_data[idx] = eval(i)
@@ -117,7 +119,7 @@ class Clear_excel():
 
 if __name__ == "__main__":
     path = BASE_DIR
-    filepath = path + "\\" + "database" + "\\" + "login_data.xlsx"
+    filepath = path + "\\" + "database" + "\\" + "Comprehensive_security.xlsx"
     list=get_data(filepath)
     print(list)
     print(list[:-3])
