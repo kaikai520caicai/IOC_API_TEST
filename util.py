@@ -7,11 +7,10 @@ import os
 from api.login import Login_Api
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE_URL="https://smart-uat.gtdreamlife.com:18762"
+BASE_URL = "https://smart-uat.gtdreamlife.com:18762"
 
 
 def get_token():
-
     headers = {"Content-Type": "application/x-www-form-urlencoded", "Authorization": "Basic aW9jOmlvYw=="}
     url = "https://smart-uat.gtdreamlife.com:18762/api/auth/oauth/token"
     json = {"username": "gaolongkai", "password": "b4f1971a4d64defc3cd3f337fdc1007c", "grant_type": "password"}
@@ -21,8 +20,6 @@ def get_token():
     access_token = jsondata.get("access_token")
     Authorization = "Bearer " + access_token
     return Authorization
-
-
 
 
 if __name__ == "__main__":
