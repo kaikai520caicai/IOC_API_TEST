@@ -7,7 +7,7 @@
 import unittest
 from api.Intelligent_life_api import Intelligent_Life_Api
 from base.base import Run_Main
-from config.config import Logger, get_data
+from config.config import Logger, get_data,write_excel
 from parameterized.parameterized import parameterized
 from util import BASE_URL, BASE_DIR, get_token
 import warnings
@@ -29,6 +29,7 @@ class Test_Intelligent_Life_Api(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
+        write_excel(path, actual_code_list, actual_status_list, result_list)
         mylogger.info("结束测试Test_Intelligent_Life_Api")
 
     def setUp(self) -> None:

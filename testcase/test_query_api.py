@@ -31,6 +31,7 @@ class Test_Api_Query(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
+        write_excel(path, actual_code_list, actual_status_list, result_list)
         mylogger.info("结束测试Test_Api_Query")
 
     def setUp(self) -> None:

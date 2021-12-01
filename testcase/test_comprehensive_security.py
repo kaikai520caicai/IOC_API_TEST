@@ -7,7 +7,7 @@
 import unittest
 from api.Comprehensive_security_api import Comprehensive_Security_Api
 from base.base import Run_Main
-from config.config import Logger, get_data
+from config.config import Logger, get_data,write_excel
 from parameterized.parameterized import parameterized
 from util import BASE_URL, BASE_DIR, get_token
 from api.carTraffic_api import CarTraffic_Api
@@ -30,6 +30,7 @@ class Test_Comprehensive_Security_Api(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
+        write_excel(path, actual_code_list, actual_status_list, result_list)
         mylogger.info("结束测试Test_Comprehensive_Security_Api")
 
     def setUp(self) -> None:
