@@ -9,6 +9,9 @@ Base_Url = "https://smart-uat.gtdreamlife.com:18762/api/ioc"
 
 
 class Run_Main():
+    """
+    接口请求方法封装get，post
+    """
     def __init__(self):
         self.session = requests.Session()
 
