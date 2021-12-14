@@ -44,7 +44,7 @@ class Test_Api_Query(unittest.TestCase):
         mylogger.info("执行完成1条测试用例")
 
     @parameterized.expand(x[:-3] for x in get_data(path))
-    def test_fire_and_security_api(self, case_name, api, request_body, headers, method, expect_code, status_code):
+    def test_query_api(self, case_name, api, request_body, headers, method, expect_code, status_code):
         """
 
         :param case_name:

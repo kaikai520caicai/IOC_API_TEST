@@ -42,7 +42,7 @@ class Test_Convenient_Access_Api(unittest.TestCase):
         mylogger.info("执行完成1条测试用例")
 
     @parameterized.expand(x[:-3] for x in get_data(path))
-    def test_fire_and_security_api(self, case_name, api, params, headers, method, expect_code, status_code):
+    def test_convenient_access_api(self, case_name, api, params, headers, method, expect_code, status_code):
         """
 
         :param case_name:
