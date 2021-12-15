@@ -63,17 +63,19 @@ class Test_Smart_Business_Api(unittest.TestCase):
         jsondata = response.json()
         actual_code = jsondata.get("errorCode")
         actual_status = response.status_code
-        mylogger.info(jsondata)
-        if expect_code == jsondata.get("errorCode"):
-            mylogger.info("errorCode为{},测试通过".format(expect_code))
-        if status_code == response.status_code:
-            mylogger.debug("status_code为{},测试通过".format(status_code))
+        if expect_code == jsondata.get("errorCode") and status_code == response.status_code:
+            mylogger.info(jsondata)
+            mylogger.info("errorCode为{},status_code为{}".format(expect_code, status_code))
             result = "Pass"
+            mylogger.info("测试通过")
         else:
-            mylogger.info("测试不通过！")
+            mylogger.error("errorCode为{},status_code为{}".format(expect_code, status_code))
+            mylogger.error("测试不通过！")
+            mylogger.error(jsondata)
             result = "Fail"
-        self.assertEqual(expect_code, jsondata.get("errorCode"))
-        self.assertEqual(status_code, response.status_code)
         actual_code_list.append(actual_code)
         actual_status_list.append(actual_status)
         result_list.append(result)
+        self.assertEqual(expect_code, jsondata.get("errorCode"))
+        self.assertEqual(status_code, response.status_code)
+
