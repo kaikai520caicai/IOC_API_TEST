@@ -3,7 +3,7 @@
 # @Auth: GLK
 # @File: base.py
 # @Software :PyCharm
-import requests, unittest
+import requests
 
 Base_Url = "https://smart-uat.gtdreamlife.com:18762/api/ioc"
 
@@ -12,23 +12,24 @@ class Run_Main():
     """
     接口请求方法封装get，post
     """
+
     def __init__(self):
         self.session = requests.Session()
 
-    def send_post(self, url,params, data, json, file, headers):
-        response = self.session.post(url=url, params=params,data=data, json=json, files=file, headers=headers)
+    def send_post(self, url, params, data, json, headers, file):
+        response = self.session.post(url=url, params=params, data=data, json=json, headers=headers, files=file)
         return response
 
-    def send_get(self, url, params, data, file, headers):
-        response = self.session.get(url=url, params=params, data=data, files=file, headers=headers)
+    def send_get(self, url, params, data, headers, file):
+        response = self.session.get(url=url, params=params, data=data, headers=headers, files=file)
         return response
 
-    def run(self, url=None, params=None, data=None, json=None, files=None, headers=None, method=None):
+    def run(self, url=None, params=None, data=None, json=None, headers=None,files=None, method=None):
         response = None
         if method == "get":
-            response = self.send_get(url, params, data, headers)
+            response = self.send_get(url, params, data, headers,files)
         else:
-            response = self.send_post(url, params,data, json, files, headers)
+            response = self.send_post(url, params, data, json, headers, files)
         return response
 
     def close_session(self):
