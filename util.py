@@ -23,10 +23,9 @@ def get_token():
     return Authorization
 
 
-def get_pic():
+def get_pic(token):
     url = "https://smart-uat.gtdreamlife.com:18762/api/ioc/personTrack/uploadPersonPic"
     path = BASE_DIR + "\\" + "test.jpg"
-    token = get_token()
     headers = {"Authorization": token}
     files = {'file': ("test.jpg", open(path, "rb"), "image/jpeg", {})}
     method = "post"
