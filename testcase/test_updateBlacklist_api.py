@@ -61,7 +61,7 @@ class Test_Api_UpdateBlacklist(unittest.TestCase):
         mylogger.info("url为：{}".format(url))
         token = get_token()
         #上传人脸接口，获取人脸url
-        facepic = get_pic()
+        facepic = get_pic(token)
         headers["Authorization"] = token
         mylogger.info(headers)
         request_body["facePic"] = facepic
@@ -73,11 +73,11 @@ class Test_Api_UpdateBlacklist(unittest.TestCase):
 
         if expect_code == jsondata.get("errorCode") and status_code == response.status_code:
             mylogger.info(jsondata)
-            mylogger.info("errorCode为{},status_code为{}".format(expect_code, status_code))
+            mylogger.info("errorCode为{},status_code为{}".format(actual_code, actual_status))
             result = "Pass"
             mylogger.info("测试通过")
         else:
-            mylogger.error("errorCode为{},status_code为{}".format(expect_code, status_code))
+            mylogger.error("errorCode为{},status_code为{}".format(actual_code, actual_status))
             mylogger.error("测试不通过！")
             mylogger.error(jsondata)
             result = "Fail"
