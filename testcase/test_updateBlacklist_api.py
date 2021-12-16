@@ -60,6 +60,7 @@ class Test_Api_UpdateBlacklist(unittest.TestCase):
         url = BASE_URL + api
         mylogger.info("url为：{}".format(url))
         token = get_token()
+        #上传人脸接口，获取人脸url
         facepic = get_pic()
         headers["Authorization"] = token
         mylogger.info(headers)
