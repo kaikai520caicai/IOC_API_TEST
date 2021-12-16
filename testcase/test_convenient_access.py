@@ -64,11 +64,11 @@ class Test_Convenient_Access_Api(unittest.TestCase):
         actual_status = response.status_code
         if expect_code == jsondata.get("errorCode") and status_code == response.status_code:
             mylogger.info(jsondata)
-            mylogger.info("errorCode为{},status_code为{}".format(expect_code, status_code))
+            mylogger.info("errorCode为{},status_code为{}".format(actual_code, actual_status))
             result = "Pass"
             mylogger.info("测试通过")
         else:
-            mylogger.error("errorCode为{},status_code为{}".format(expect_code, status_code))
+            mylogger.error("errorCode为{},status_code为{}".format(actual_code, actual_status))
             mylogger.error("测试不通过！")
             mylogger.error(jsondata)
             result = "Fail"
