@@ -1,0 +1,258 @@
+2021-12-16 14:22:10,866 - test_updateBlacklist_api - INFO - 开始测试Test_Api_UpdateBlacklist
+2021-12-16 14:22:10,867 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:10,867 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改name
+2021-12-16 14:22:10,868 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:13,371 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1MWI1Y2E0MS0xYWVjLTQwNDQtYWZmMy1hZDlkNGE4ZmM3ZDkiLCJjbGllbnRfaWQiOiJpb2MifQ.1xTKoBiWjyRA_IwT_dV28J2rqWyDgagP9P35wfK4PJQ'}
+2021-12-16 14:22:13,528 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:13,528 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:13,528 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEyOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1MWI1Y2E0MS0xYWVjLTQwNDQtYWZmMy1hZDlkNGE4ZmM3ZDkiLCJjbGllbnRfaWQiOiJpb2MifQ.1xTKoBiWjyRA_IwT_dV28J2rqWyDgagP9P35wfK4PJQ'}
+2021-12-16 14:22:13,529 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:13,534 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:13,534 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改性别
+2021-12-16 14:22:13,534 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:14,742 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzMiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJkMGE2YzY4Ni03M2Y3LTRmNzQtOGNmNy1iNWJlYzIxYmYzNjAiLCJjbGllbnRfaWQiOiJpb2MifQ.KS-B2UFGtQlxTbZIeuWCZY4_cSk-sSiYlxn2u2iHcsk'}
+2021-12-16 14:22:14,756 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:14,756 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:14,756 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzMiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJkMGE2YzY4Ni03M2Y3LTRmNzQtOGNmNy1iNWJlYzIxYmYzNjAiLCJjbGllbnRfaWQiOiJpb2MifQ.KS-B2UFGtQlxTbZIeuWCZY4_cSk-sSiYlxn2u2iHcsk'}
+2021-12-16 14:22:14,756 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:14,757 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:14,757 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改备注
+2021-12-16 14:22:14,757 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:15,654 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzMywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIxMjkyMzA5Zi1jZDk3LTQyODMtOTg5OS01MmYwM2UzZTg1MDIiLCJjbGllbnRfaWQiOiJpb2MifQ._S-BIMg9xEtYCh1BeI10r-I2o8H5QeI-uYLaOWC-xBo'}
+2021-12-16 14:22:15,669 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:15,669 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:15,670 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzMywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIxMjkyMzA5Zi1jZDk3LTQyODMtOTg5OS01MmYwM2UzZTg1MDIiLCJjbGllbnRfaWQiOiJpb2MifQ._S-BIMg9xEtYCh1BeI10r-I2o8H5QeI-uYLaOWC-xBo'}
+2021-12-16 14:22:15,670 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:15,671 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:15,671 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改facepic
+2021-12-16 14:22:15,672 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:16,675 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIzMWU2MmRhOC04ZDQ3LTQ4ZTgtYmFhZC01MmVjYzQwNGUxYzEiLCJjbGllbnRfaWQiOiJpb2MifQ.N0fFU8PHfyr7qtDug6bv2uVDeu5OslTPww7S1CloK38'}
+2021-12-16 14:22:16,690 - test_updateBlacklist_api - ERROR - errorCode为900001,status_code为200
+2021-12-16 14:22:16,691 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:16,691 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIzMWU2MmRhOC04ZDQ3LTQ4ZTgtYmFhZC01MmVjYzQwNGUxYzEiLCJjbGllbnRfaWQiOiJpb2MifQ.N0fFU8PHfyr7qtDug6bv2uVDeu5OslTPww7S1CloK38'}
+2021-12-16 14:22:16,691 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:16,693 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:16,694 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改projectid
+2021-12-16 14:22:16,694 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:17,634 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5YWJkMDMzMy04MmJhLTQzZmYtODc3OC1jODQxODFmZjJhODUiLCJjbGllbnRfaWQiOiJpb2MifQ.nGdMCrTzmEVK3XzWxyDXpNWxC__U3Il7tlFWP8jJT8Y'}
+2021-12-16 14:22:17,656 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:17,656 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:17,656 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5YWJkMDMzMy04MmJhLTQzZmYtODc3OC1jODQxODFmZjJhODUiLCJjbGllbnRfaWQiOiJpb2MifQ.nGdMCrTzmEVK3XzWxyDXpNWxC__U3Il7tlFWP8jJT8Y'}
+2021-12-16 14:22:17,657 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:17,659 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:17,659 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改source
+2021-12-16 14:22:17,659 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:18,528 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI2NWYwNzcyMS04MGNiLTQ1ZDMtODZkOC0wYWU1MGU2ZmJlZmMiLCJjbGllbnRfaWQiOiJpb2MifQ.d5f4sH2u3G1FRBYB43XA1HuvrTJn9vPHURaVGp_xXJw'}
+2021-12-16 14:22:18,546 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:18,546 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:18,546 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI2NWYwNzcyMS04MGNiLTQ1ZDMtODZkOC0wYWU1MGU2ZmJlZmMiLCJjbGllbnRfaWQiOiJpb2MifQ.d5f4sH2u3G1FRBYB43XA1HuvrTJn9vPHURaVGp_xXJw'}
+2021-12-16 14:22:18,546 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:18,549 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:18,549 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改id
+2021-12-16 14:22:18,549 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:19,630 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhZWE5MjZkOC0xOGVjLTRkMWUtOWJjZS00NmUzYWE0MTkyZGEiLCJjbGllbnRfaWQiOiJpb2MifQ.llLRinsVgZh5ViEH2ulnziGYKxmxAO-K_mw1VtFaV7M'}
+2021-12-16 14:22:19,650 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:19,650 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:19,650 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzNywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhZWE5MjZkOC0xOGVjLTRkMWUtOWJjZS00NmUzYWE0MTkyZGEiLCJjbGllbnRfaWQiOiJpb2MifQ.llLRinsVgZh5ViEH2ulnziGYKxmxAO-K_mw1VtFaV7M'}
+2021-12-16 14:22:19,650 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:19,652 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:19,652 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-name为空
+2021-12-16 14:22:19,652 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:20,586 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzOCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1OTM3NjcxMS0yYmQwLTQyOGYtYjg3NS1iYzI1MjM3ZDJkY2IiLCJjbGllbnRfaWQiOiJpb2MifQ.0wLe0EnqyqzxXyGS1DiYf8L_zp3s6569jVry6x2gkUE'}
+2021-12-16 14:22:20,605 - test_updateBlacklist_api - ERROR - errorCode为700002,status_code为200
+2021-12-16 14:22:20,605 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:20,605 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzOCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1OTM3NjcxMS0yYmQwLTQyOGYtYjg3NS1iYzI1MjM3ZDJkY2IiLCJjbGllbnRfaWQiOiJpb2MifQ.0wLe0EnqyqzxXyGS1DiYf8L_zp3s6569jVry6x2gkUE'}
+2021-12-16 14:22:20,605 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:20,606 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:20,606 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-sex为空
+2021-12-16 14:22:20,606 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:21,474 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIxYThkYTg5My1mZjI5LTQ2NWQtYWM3OC00NDFhZDEwNjM4ZjEiLCJjbGllbnRfaWQiOiJpb2MifQ.IKGwc7CF0jA7NhznP4zkScxSHEWZTy7Y1x_9FBEul9Q'}
+2021-12-16 14:22:21,489 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:21,489 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:21,489 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjEzOSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIxYThkYTg5My1mZjI5LTQ2NWQtYWM3OC00NDFhZDEwNjM4ZjEiLCJjbGllbnRfaWQiOiJpb2MifQ.IKGwc7CF0jA7NhznP4zkScxSHEWZTy7Y1x_9FBEul9Q'}
+2021-12-16 14:22:21,490 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:21,491 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:21,491 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-remark为空
+2021-12-16 14:22:21,491 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:22,491 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5ZjhiOGRlYi1mYjVjLTQxZjQtOWYyOC1kMjYzN2Q2NmMyYjMiLCJjbGllbnRfaWQiOiJpb2MifQ.9A36g0e0uLxRgaLmSDggAi2iBQnotw5GvVwGN_vUezk'}
+2021-12-16 14:22:22,510 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:22,510 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:22,510 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5ZjhiOGRlYi1mYjVjLTQxZjQtOWYyOC1kMjYzN2Q2NmMyYjMiLCJjbGllbnRfaWQiOiJpb2MifQ.9A36g0e0uLxRgaLmSDggAi2iBQnotw5GvVwGN_vUezk'}
+2021-12-16 14:22:22,510 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:22,511 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:22,511 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-projectId为空
+2021-12-16 14:22:22,511 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:23,576 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIxYWE0NGM2YS0xZDFmLTQwNTEtYjFjMy03MGU4YjcwYjRiMzEiLCJjbGllbnRfaWQiOiJpb2MifQ.ADBkNXqy2FAS2XFt5UzDiGoVlT-BI1DH_qTMbphcxrI'}
+2021-12-16 14:22:23,593 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:23,593 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:23,593 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIxYWE0NGM2YS0xZDFmLTQwNTEtYjFjMy03MGU4YjcwYjRiMzEiLCJjbGllbnRfaWQiOiJpb2MifQ.ADBkNXqy2FAS2XFt5UzDiGoVlT-BI1DH_qTMbphcxrI'}
+2021-12-16 14:22:23,593 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:23,595 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:23,596 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-id为空
+2021-12-16 14:22:23,596 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:24,546 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1MDQ2MmIwZi02Y2MyLTQ5YmMtYWQ5Ni00NzE1ZDk4ZmU4ZTMiLCJjbGllbnRfaWQiOiJpb2MifQ.FAoXmlMKdCMR0_g0GWlD-fM5j24Gl0FHbC_XeSWlMug'}
+2021-12-16 14:22:24,559 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:24,559 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:24,559 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1MDQ2MmIwZi02Y2MyLTQ5YmMtYWQ5Ni00NzE1ZDk4ZmU4ZTMiLCJjbGllbnRfaWQiOiJpb2MifQ.FAoXmlMKdCMR0_g0GWlD-fM5j24Gl0FHbC_XeSWlMug'}
+2021-12-16 14:22:24,559 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:24,561 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:24,561 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误name
+2021-12-16 14:22:24,562 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:25,447 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIzMTA4Y2I1OC1jYTJlLTQzYjktYjA4NC1mNmM5YzUzMjRmZTQiLCJjbGllbnRfaWQiOiJpb2MifQ.9QKIs_lprMYb839QGglWufPgn6wEuK35yxLL6jwF3HU'}
+2021-12-16 14:22:25,464 - test_updateBlacklist_api - ERROR - errorCode为999997,status_code为200
+2021-12-16 14:22:25,464 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:25,464 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0MywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIzMTA4Y2I1OC1jYTJlLTQzYjktYjA4NC1mNmM5YzUzMjRmZTQiLCJjbGllbnRfaWQiOiJpb2MifQ.9QKIs_lprMYb839QGglWufPgn6wEuK35yxLL6jwF3HU'}
+2021-12-16 14:22:25,464 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:25,465 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:25,465 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误sex
+2021-12-16 14:22:25,465 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:26,517 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5ZTRmMmYxYi0zMDI0LTQ4YzgtOWRmZC1jM2M1OGUzYTFiMDYiLCJjbGllbnRfaWQiOiJpb2MifQ.qtpUbx3l2T9SgnixcRP5WpZoRq81tqmMZGNbJIaeEdw'}
+2021-12-16 14:22:26,534 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:26,534 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:26,534 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5ZTRmMmYxYi0zMDI0LTQ4YzgtOWRmZC1jM2M1OGUzYTFiMDYiLCJjbGllbnRfaWQiOiJpb2MifQ.qtpUbx3l2T9SgnixcRP5WpZoRq81tqmMZGNbJIaeEdw'}
+2021-12-16 14:22:26,534 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:26,536 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:26,537 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误remark
+2021-12-16 14:22:26,537 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:27,657 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0NSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJmOTZiMDFmZS03YWY2LTQzYmEtYmI5Mi05YmY5MzFhYmVkY2YiLCJjbGllbnRfaWQiOiJpb2MifQ.e0Nmol7JoTxQagY9XxAROKgKJjR_EHtJZKs5OSlL5jc'}
+2021-12-16 14:22:27,785 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:27,785 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:27,785 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0NSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJmOTZiMDFmZS03YWY2LTQzYmEtYmI5Mi05YmY5MzFhYmVkY2YiLCJjbGllbnRfaWQiOiJpb2MifQ.e0Nmol7JoTxQagY9XxAROKgKJjR_EHtJZKs5OSlL5jc'}
+2021-12-16 14:22:27,785 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:27,787 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:27,788 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误projectId
+2021-12-16 14:22:27,788 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:28,826 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhYmRjNWUyNC1iMWU5LTRkNmEtYmVmYi03ZjAxY2I0ZTI4MzYiLCJjbGllbnRfaWQiOiJpb2MifQ.xxffC6KiCpg3myPFr0TAivco7czCMx78YkZDpLxu3yU'}
+2021-12-16 14:22:28,849 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:22:28,850 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:28,850 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE0NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhYmRjNWUyNC1iMWU5LTRkNmEtYmVmYi03ZjAxY2I0ZTI4MzYiLCJjbGllbnRfaWQiOiJpb2MifQ.xxffC6KiCpg3myPFr0TAivco7czCMx78YkZDpLxu3yU'}
+2021-12-16 14:22:28,850 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:53,432 - test_updateBlacklist_api - INFO - 开始测试Test_Api_UpdateBlacklist
+2021-12-16 14:22:53,433 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:53,434 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改name
+2021-12-16 14:22:53,434 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:55,200 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI4ZjQ5YjI5OC1mZWY4LTQ2NmItOThjYy1mOTRjYTQyNGJhMTYiLCJjbGllbnRfaWQiOiJpb2MifQ.x65bUP-fd2ybjZ6ryPEgBUlyi31AXn2bVjDv1z40qO4'}
+2021-12-16 14:22:55,259 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:55,259 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:55,259 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI4ZjQ5YjI5OC1mZWY4LTQ2NmItOThjYy1mOTRjYTQyNGJhMTYiLCJjbGllbnRfaWQiOiJpb2MifQ.x65bUP-fd2ybjZ6ryPEgBUlyi31AXn2bVjDv1z40qO4'}
+2021-12-16 14:22:55,260 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:55,262 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:55,262 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改性别
+2021-12-16 14:22:55,262 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:56,954 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJlZWJjYzNiYy1iNjE0LTQ2MjQtYTBhZi01NGZkNjc2YmViNzUiLCJjbGllbnRfaWQiOiJpb2MifQ.VMCLt8TwfaMxVlarUi4g4-SvouIKh7hIJfxedfS168c'}
+2021-12-16 14:22:56,969 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:56,969 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:56,969 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJlZWJjYzNiYy1iNjE0LTQ2MjQtYTBhZi01NGZkNjc2YmViNzUiLCJjbGllbnRfaWQiOiJpb2MifQ.VMCLt8TwfaMxVlarUi4g4-SvouIKh7hIJfxedfS168c'}
+2021-12-16 14:22:56,969 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:56,970 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:56,970 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改备注
+2021-12-16 14:22:56,970 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:58,004 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJmZjY4ZmFkMy02M2VmLTQwNzctYWYwNy00ZWZiODcwYjgxODciLCJjbGllbnRfaWQiOiJpb2MifQ.fQTYHgsF-lABYMnvgNZhJIQ1JweKqKPhov5DAqYYIbU'}
+2021-12-16 14:22:58,019 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:22:58,019 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:58,019 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJmZjY4ZmFkMy02M2VmLTQwNzctYWYwNy00ZWZiODcwYjgxODciLCJjbGllbnRfaWQiOiJpb2MifQ.fQTYHgsF-lABYMnvgNZhJIQ1JweKqKPhov5DAqYYIbU'}
+2021-12-16 14:22:58,019 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:58,020 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:58,021 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改facepic
+2021-12-16 14:22:58,021 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:22:58,934 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI0MGU2MWQ0MC0yOWJiLTQzOGMtYjFhNC1iZDc4YTViNmYzODciLCJjbGllbnRfaWQiOiJpb2MifQ.3SpOcnCuA3yCq6vtXVT84_F2plxf32B1Q7xIIMCWFNM'}
+2021-12-16 14:22:58,948 - test_updateBlacklist_api - ERROR - errorCode为900001,status_code为200
+2021-12-16 14:22:58,948 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:22:58,948 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI0MGU2MWQ0MC0yOWJiLTQzOGMtYjFhNC1iZDc4YTViNmYzODciLCJjbGllbnRfaWQiOiJpb2MifQ.3SpOcnCuA3yCq6vtXVT84_F2plxf32B1Q7xIIMCWFNM'}
+2021-12-16 14:22:58,948 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:22:58,949 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:22:58,949 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改projectid
+2021-12-16 14:22:58,949 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:00,028 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIwNWRkODQ5Yy1jZDMzLTQ2OGYtODYwZS01ZWE1ODY0NGZhZTAiLCJjbGllbnRfaWQiOiJpb2MifQ.TUwYvU5TP9oCbfK7mzAfOPLm00P0v7PFTDDbZYowkuw'}
+2021-12-16 14:23:00,043 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:23:00,043 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:00,043 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIwNWRkODQ5Yy1jZDMzLTQ2OGYtODYwZS01ZWE1ODY0NGZhZTAiLCJjbGllbnRfaWQiOiJpb2MifQ.TUwYvU5TP9oCbfK7mzAfOPLm00P0v7PFTDDbZYowkuw'}
+2021-12-16 14:23:00,043 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:00,045 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:00,045 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改source
+2021-12-16 14:23:00,045 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:01,010 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3OSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJiYTZhMWE0Yy0wMWNkLTQ0MDAtYjNkYi1jOWUwMTlkN2YwMTQiLCJjbGllbnRfaWQiOiJpb2MifQ.ZWwf-TaX3CQSxxqXy3xUs6uhO00clz_Euo4x7JxQJAk'}
+2021-12-16 14:23:01,024 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:01,024 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:01,024 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE3OSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJiYTZhMWE0Yy0wMWNkLTQ0MDAtYjNkYi1jOWUwMTlkN2YwMTQiLCJjbGllbnRfaWQiOiJpb2MifQ.ZWwf-TaX3CQSxxqXy3xUs6uhO00clz_Euo4x7JxQJAk'}
+2021-12-16 14:23:01,024 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:01,026 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:01,027 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-修改id
+2021-12-16 14:23:01,027 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:02,151 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1ZjlmZDQzYS05ZDViLTQ3NGItYTQwMS04ZTg2MmRkZTUyMzQiLCJjbGllbnRfaWQiOiJpb2MifQ.c0_prnbTogHEkdfM8OupqIjbq2zRHfPk4UB3zrm9FEM'}
+2021-12-16 14:23:02,162 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:02,162 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:02,162 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1ZjlmZDQzYS05ZDViLTQ3NGItYTQwMS04ZTg2MmRkZTUyMzQiLCJjbGllbnRfaWQiOiJpb2MifQ.c0_prnbTogHEkdfM8OupqIjbq2zRHfPk4UB3zrm9FEM'}
+2021-12-16 14:23:02,162 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:02,163 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:02,163 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-name为空
+2021-12-16 14:23:02,163 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:03,514 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4MSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIzNjRjNDA5Ni1jNDk3LTQzNWItODVhMi1mMDAwMzViYWYyN2EiLCJjbGllbnRfaWQiOiJpb2MifQ.2jvEsWnqhj7JV6hccVUPNd-K3W6_VTLPfxALFW3J58U'}
+2021-12-16 14:23:03,566 - test_updateBlacklist_api - ERROR - errorCode为700002,status_code为200
+2021-12-16 14:23:03,567 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:03,567 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4MSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiIzNjRjNDA5Ni1jNDk3LTQzNWItODVhMi1mMDAwMzViYWYyN2EiLCJjbGllbnRfaWQiOiJpb2MifQ.2jvEsWnqhj7JV6hccVUPNd-K3W6_VTLPfxALFW3J58U'}
+2021-12-16 14:23:03,567 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:03,569 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:03,570 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-sex为空
+2021-12-16 14:23:03,570 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:05,235 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJlNWQ4MjJlMy1mMmQyLTRiMmUtYjBkZS1jNzgwOTBmMDk4MGYiLCJjbGllbnRfaWQiOiJpb2MifQ.E2WTWq-RJWWxCpU1-IbZJ64TfLQ9aRYNuFJDR1IwLIw'}
+2021-12-16 14:23:05,263 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:05,263 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:05,264 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJlNWQ4MjJlMy1mMmQyLTRiMmUtYjBkZS1jNzgwOTBmMDk4MGYiLCJjbGllbnRfaWQiOiJpb2MifQ.E2WTWq-RJWWxCpU1-IbZJ64TfLQ9aRYNuFJDR1IwLIw'}
+2021-12-16 14:23:05,264 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:05,266 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:05,266 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-remark为空
+2021-12-16 14:23:05,266 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:06,517 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1MDgzZDRhYy1mN2Y5LTRmNmEtOTViMS1mZmRkNTM3N2FiNDMiLCJjbGllbnRfaWQiOiJpb2MifQ.TvbEwd4BdjRbw4DHCtRpXPnFU0OkohHDY_VID7Vneo4'}
+2021-12-16 14:23:06,537 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:06,537 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:06,538 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI1MDgzZDRhYy1mN2Y5LTRmNmEtOTViMS1mZmRkNTM3N2FiNDMiLCJjbGllbnRfaWQiOiJpb2MifQ.TvbEwd4BdjRbw4DHCtRpXPnFU0OkohHDY_VID7Vneo4'}
+2021-12-16 14:23:06,538 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:06,540 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:06,540 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-projectId为空
+2021-12-16 14:23:06,540 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:07,676 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5ZWE1MjA5ZS1mYzM1LTRjMDgtODczMC0zODgwZGVkYzVhMDQiLCJjbGllbnRfaWQiOiJpb2MifQ.Sd0BQvZPK9qb-XKK9or3iSPC3qA_BDjVjXCWObAk76A'}
+2021-12-16 14:23:07,723 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:07,723 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:07,723 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiI5ZWE1MjA5ZS1mYzM1LTRjMDgtODczMC0zODgwZGVkYzVhMDQiLCJjbGllbnRfaWQiOiJpb2MifQ.Sd0BQvZPK9qb-XKK9or3iSPC3qA_BDjVjXCWObAk76A'}
+2021-12-16 14:23:07,723 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:07,724 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:07,725 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-id为空
+2021-12-16 14:23:07,725 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:08,710 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJmYzQyZDJmYS0wMzZlLTRjMjgtYTYxNS1hY2RmOGYwMGU3ODkiLCJjbGllbnRfaWQiOiJpb2MifQ.Qr9yS42SJeG7ITwZ7eevWNThkjkNjah2l0xIq-0hm7s'}
+2021-12-16 14:23:08,725 - test_updateBlacklist_api - ERROR - errorCode为0,status_code为200
+2021-12-16 14:23:08,726 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:08,726 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJmYzQyZDJmYS0wMzZlLTRjMjgtYTYxNS1hY2RmOGYwMGU3ODkiLCJjbGllbnRfaWQiOiJpb2MifQ.Qr9yS42SJeG7ITwZ7eevWNThkjkNjah2l0xIq-0hm7s'}
+2021-12-16 14:23:08,726 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:08,728 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:08,728 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误name
+2021-12-16 14:23:08,729 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:09,656 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJjMjVmMDhlNy0yNTIwLTRlNzktYWU1Ni1hNzg5ZTU4NGU2NjYiLCJjbGllbnRfaWQiOiJpb2MifQ.xyIcDMOKpEfY0N7cAyCUrx3AIkn6jdo7V8E2zcKSc44'}
+2021-12-16 14:23:09,673 - test_updateBlacklist_api - ERROR - errorCode为999997,status_code为200
+2021-12-16 14:23:09,673 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:09,673 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4NywiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJjMjVmMDhlNy0yNTIwLTRlNzktYWU1Ni1hNzg5ZTU4NGU2NjYiLCJjbGllbnRfaWQiOiJpb2MifQ.xyIcDMOKpEfY0N7cAyCUrx3AIkn6jdo7V8E2zcKSc44'}
+2021-12-16 14:23:09,673 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:09,676 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:09,676 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误sex
+2021-12-16 14:23:09,676 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:10,595 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhNmE3MTZhOC0wOGFlLTRlNWYtOGJkYS03ZjBjNTRlYzM4YTYiLCJjbGllbnRfaWQiOiJpb2MifQ.bqLhNl3y3Kgg7L9cdMZIQQJ_v37LkMeHjm3yZCcWwXs'}
+2021-12-16 14:23:10,614 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:10,615 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:10,615 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4OCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhNmE3MTZhOC0wOGFlLTRlNWYtOGJkYS03ZjBjNTRlYzM4YTYiLCJjbGllbnRfaWQiOiJpb2MifQ.bqLhNl3y3Kgg7L9cdMZIQQJ_v37LkMeHjm3yZCcWwXs'}
+2021-12-16 14:23:10,615 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:10,616 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:10,616 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误remark
+2021-12-16 14:23:10,616 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:11,676 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4OSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJiNzUwYTY3Mi00MDJiLTQ2ODktOWFhYi0wOTkwMDgxMzYxZTkiLCJjbGllbnRfaWQiOiJpb2MifQ._Pls1AnV-cHlbCWa63O41ZOc8hQKCoQNHzooXRCKpGk'}
+2021-12-16 14:23:11,689 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:11,689 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:11,689 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE4OSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJiNzUwYTY3Mi00MDJiLTQ2ODktOWFhYi0wOTkwMDgxMzYxZTkiLCJjbGllbnRfaWQiOiJpb2MifQ._Pls1AnV-cHlbCWa63O41ZOc8hQKCoQNHzooXRCKpGk'}
+2021-12-16 14:23:11,689 - test_updateBlacklist_api - INFO - 执行完成1条测试用例
+2021-12-16 14:23:11,691 - test_updateBlacklist_api - INFO - 开始执行测试用例
+2021-12-16 14:23:11,691 - test_updateBlacklist_api - INFO - 测试用例名称：更新重点人员信息-参数错误projectId
+2021-12-16 14:23:11,691 - test_updateBlacklist_api - INFO - url为：https://smart-uat.gtdreamlife.com:18762/api/ioc/blacklist/updateBlacklist
+2021-12-16 14:23:12,810 - test_updateBlacklist_api - INFO - {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE5MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhODc2ZTY1MS1iMGZiLTQ1OGMtOTI2OC02ZDU4NjNmNjM4NzQiLCJjbGllbnRfaWQiOiJpb2MifQ.7d886e7k5jyh0GCwKMm3l0uPGghq7vnPLJXYUyD0WcM'}
+2021-12-16 14:23:12,828 - test_updateBlacklist_api - ERROR - errorCode为999999,status_code为200
+2021-12-16 14:23:12,829 - test_updateBlacklist_api - ERROR - 测试不通过！
+2021-12-16 14:23:12,829 - test_updateBlacklist_api - ERROR - {'errorMessage': '登录信息失效，请重新登录', 'errorCode': 100017, 'sourceErrorMessage': 'Invalid access token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoiY3JlYXRlIGJ5IEdyZWVudG93biIsInVzZXJfaWQiOjI2OSwidXNlcl9uYW1lIjoiZ2FvbG9uZ2thaSIsInNjb3BlIjpbInNlcnZlciJdLCJlcnJvckNvZGUiOjAsImV4cCI6MTYzOTcyMjE5MCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJqdGkiOiJhODc2ZTY1MS1iMGZiLTQ1OGMtOTI2OC02ZDU4NjNmNjM4NzQiLCJjbGllbnRfaWQiOiJpb2MifQ.7d886e7k5jyh0GCwKMm3l0uPGghq7vnPLJXYUyD0WcM'}
+2021-12-16 14:23:12,829 - test_updateBlacklist_api - INFO - 执行完成1条测试用例

@@ -11,7 +11,7 @@ import unittest, time
 import warnings
 from parameterized import parameterized
 from config.config import get_data, write_excel, Clear_excel
-from util import BASE_DIR, BASE_URL, get_token
+from util import BASE_DIR, BASE_URL, get_token,get_pic
 from config.config import Logger
 
 mylogger = Logger(logger="test_updateBlacklist_api").getlog()
@@ -60,7 +60,10 @@ class Test_Api_UpdateBlacklist(unittest.TestCase):
         url = BASE_URL + api
         mylogger.info("url为：{}".format(url))
         token = get_token()
+        facepic = get_pic()
         headers["Authorization"] = token
+        mylogger.info(headers)
+        request_body["facePic"] = facepic
         response = self.updateBlacklist_api.test_updateBlacklist_api(url=url, json=request_body, headers=headers,
                                                                      method=method)
         jsondata = response.json()

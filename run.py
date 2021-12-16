@@ -8,9 +8,6 @@ import unittest
 from BeautifulReport import BeautifulReport
 import time
 
-
-
-
 if __name__ == '__main__':
     suite = unittest.defaultTestLoader.discover("./testcase", pattern="test*.py", top_level_dir=None)
     BeautifulReport(suite).report(filename="./report/{}测试报告".format(time.strftime("%Y%m%d%H%M%S")),
