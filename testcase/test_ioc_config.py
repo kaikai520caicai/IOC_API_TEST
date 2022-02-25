@@ -32,7 +32,7 @@ class Test_Api_Ioc_config(unittest.TestCase):
     @classmethod
     def tearDownClass(cls) -> None:
         write_excel(path, actual_code_list, actual_status_list, result_list)
-        mylogger.info("结束测试Test_Api_Query")
+        mylogger.info("结束测试Test_ioc_config_api")
 
     def setUp(self) -> None:
         self.run = Run_Main()
@@ -44,7 +44,7 @@ class Test_Api_Ioc_config(unittest.TestCase):
         mylogger.info("执行完成1条测试用例")
 
     @parameterized.expand(x[:-3] for x in get_data(path))
-    def test_query_api(self, case_name, api, request_body, headers, method, expect_code, status_code):
+    def test_ioc_config_api(self, case_name, api, request_body, headers, method, expect_code, status_code):
         """
 
         :param case_name:
